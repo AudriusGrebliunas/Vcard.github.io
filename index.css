@@ -1,0 +1,178 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+
+
+
+body{
+    font-family: sans-serif;
+   
+}
+
+
+
+.cartevisite{
+
+    position: relative;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    /* line-height: 50px; */
+    color: #EEEEEE;
+    border-radius: 2%;
+    margin-top: 5%;
+    border: 0.5px solid white;
+}
+
+
+
+
+
+.cartevisite > *{
+    margin-top: 40px;
+}
+
+
+body{
+    background-color: #222831;
+    color: #000000;
+    font-weight: 600;
+    font-family: 'Martian mono', sans-serif;
+}
+
+i{
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+
+h1{
+    font-size: 2.827rem
+}
+
+h2{
+    font-size: 1.999rem;
+    font-weight: 500;
+}
+
+h3{
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+h4{
+    font-size: 0.707rem;
+}
+
+@media screen and (max-width: 576px)  {
+    .cartevisite{
+        width: 80%;
+    }
+
+    h1{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+}
+
+@media screen and (max-width: 768px)  {
+    .cartevisite{
+        width: 70%;
+    }
+
+}
+
+*{
+    transition: 0.5s;
+}
